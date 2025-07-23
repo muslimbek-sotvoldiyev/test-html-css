@@ -574,7 +574,7 @@
       "A) text-align: right",
       "B) align: right",
       "C) text-position: right",
-      "D) position: right
+      "D) position: right"
     ],
     correctAnswer: "A) text-align: right"
   },
