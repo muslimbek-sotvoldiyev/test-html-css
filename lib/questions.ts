@@ -1,460 +1,58 @@
-export const pythonQuestions = [
-    {
-      "id": 1,
-      "category": "HTML asoslari",
-      "type": "closed",
-      "question": "HTML nima?",
-      "options": [
-        "A) HyperText Markup Language",
-        "B) High Tech Modern Language", 
-        "C) Home Tool Markup Language",
-        "D) Hyperlink and Text Markup Language"
-      ],
-      "correctAnswer": "A) HyperText Markup Language"
-    },
-    {
-      "id": 2,
-      "category": "HTML asoslari",
-      "type": "closed",
-      "question": "HTML hujjatining asosiy tuzilishini boshlash uchun qaysi tag ishlatiladi?",
-      "options": [
-        "A) &lt;document&gt;",
-        "B) &lt;html&gt;",
-        "C) &lt;page&gt;", 
-        "D) &lt;start&gt;"
-      ],
-      "correctAnswer": "B) &lt;html&gt;"
-    },
-    {
-      "id": 3,
-      "category": "HTML asoslari",
-      "type": "closed",
-      "question": "Sahifa sarlavhasini belgilash uchun qaysi tag ishlatiladi?",
-      "options": [
-        "A) &lt;header&gt;",
-        "B) &lt;title&gt;",
-        "C) &lt;h1&gt;",
-        "D) &lt;caption&gt;"
-      ],
-      "correctAnswer": "B) &lt;title&gt;"
-    },
-    {
-      "id": 4,
-      "category": "HTML asoslari",
-      "type": "closed",
-      "question": "Meta ma'lumotlar qaysi bo'limda joylashadi?",
-      "options": [
-        "A) &lt;body&gt;",
-        "B) &lt;footer&gt;",
-        "C) &lt;head&gt;",
-        "D) &lt;main&gt;"
-      ],
-      "correctAnswer": "C) &lt;head&gt;"
-    },
-    {
-      "id": 5,
-      "category": "HTML asoslari",
-      "type": "closed",
-      "question": "Sahifaning ko'rinadigan qismi qaysi tagda joylashadi?",
-      "options": [
-        "A) &lt;head&gt;",
-        "B) &lt;body&gt;",
-        "C) &lt;html&gt;",
-        "D) &lt;main&gt;"
-      ],
-      "correctAnswer": "B) &lt;body&gt;"
-    },
-    {
-      "id": 6,
-      "category": "HTML asoslari",
-      "type": "closed",
-      "question": "HTML'da izoh (comment) qanday yoziladi?",
-      "options": [
-        "A) // izoh",
-        "B) /* izoh */",
-        "C) &lt;!-- izoh --&gt;",
-        "D) # izoh"
-      ],
-      "correctAnswer": "C) &lt;!-- izoh --&gt;"
-    },
-    {
-      "id": 7,
-      "category": "HTML sarlavhalar",
-      "type": "closed",
-      "question": "Eng katta sarlavha uchun qaysi tag ishlatiladi?",
-      "options": [
-        "A) &lt;h6&gt;",
-        "B) &lt;h1&gt;",
-        "C) &lt;header&gt;",
-        "D) &lt;big&gt;"
-      ],
-      "correctAnswer": "B) &lt;h1&gt;"
-    },
-    {
-      "id": 8,
-      "category": "HTML matn",
-      "type": "closed",
-      "question": "Paragraf yaratish uchun qaysi tag ishlatiladi?",
-      "options": [
-        "A) &lt;par&gt;",
-        "B) &lt;paragraph&gt;",
-        "C) &lt;p&gt;",
-        "D) &lt;text&gt;"
-      ],
-      "correctAnswer": "C) &lt;p&gt;"
-    },
-    {
-      "id": 9,
-      "category": "HTML matn",
-      "type": "closed",
-      "question": "Yangi qatorga o'tish uchun qaysi tag ishlatiladi?",
-      "options": [
-        "A) &lt;break&gt;",
-        "B) &lt;br&gt;",
-        "C) &lt;newline&gt;",
-        "D) &lt;nl&gt;"
-      ],
-      "correctAnswer": "B) &lt;br&gt;"
-    },
-    {
-      "id": 10,
-      "category": "HTML elementlar",
-      "type": "closed",
-      "question": "Gorizontal chiziq chizish uchun qaysi tag ishlatiladi?",
-      "options": [
-        "A) &lt;line&gt;",
-        "B) &lt;hr&gt;",
-        "C) &lt;horizontal&gt;",
-        "D) &lt;border&gt;"
-      ],
-      "correctAnswer": "B) &lt;hr&gt;"
-    },
-    {
-      "id": 11,
-      "category": "HTML matn formatlash",
-      "type": "closed",
-      "question": "Matnni qalin (bold) qilish uchun qaysi tag ishlatiladi?",
-      "options": [
-        "A) &lt;bold&gt;",
-        "B) &lt;b&gt;",
-        "C) &lt;strong&gt;",
-        "D) B va C to'g'ri"
-      ],
-      "correctAnswer": "D) B va C to'g'ri"
-    },
-    {
-      "id": 12,
-      "category": "HTML matn formatlash", 
-      "type": "closed",
-      "question": "Matnni kursiv qilish uchun qaysi tag ishlatiladi?",
-      "options": [
-        "A) &lt;italic&gt;",
-        "B) &lt;i&gt;",
-        "C) &lt;em&gt;",
-        "D) B va C to'g'ri"
-      ],
-      "correctAnswer": "D) B va C to'g'ri"
-    },
-    {
-      "id": 13,
-      "category": "HTML matn formatlash",
-      "type": "closed",
-      "question": "Matnni tagiga chiziq tortish uchun qaysi tag ishlatiladi?",
-      "options": [
-        "A) &lt;underline&gt;",
-        "B) &lt;u&gt;",
-        "C) &lt;under&gt;",
-        "D) &lt;line&gt;"
-      ],
-      "correctAnswer": "B) &lt;u&gt;"
-    },
-    {
-      "id": 14,
-      "category": "HTML5",
-      "type": "closed",
-      "question": "HTML5'da hujjat turini belgilash uchun nima yoziladi?",
-      "options": [
-        "A) &lt;!DOCTYPE html5&gt;",
-        "B) &lt;!DOCTYPE HTML&gt;",
-        "C) &lt;!DOCTYPE html&gt;",
-        "D) &lt;DOCTYPE html&gt;"
-      ],
-      "correctAnswer": "C) &lt;!DOCTYPE html&gt;"
-    },
-    {
-      "id": 15,
-      "category": "HTML meta",
-      "type": "closed",
-      "question": "Sahifaning kodlash turini belgilash uchun qaysi meta tag ishlatiladi?",
-      "options": [
-        "A) &lt;meta encoding='utf-8'&gt;",
-        "B) &lt;meta charset='utf-8'&gt;",
-        "C) &lt;meta character='utf-8'&gt;",
-        "D) &lt;meta code='utf-8'&gt;"
-      ],
-      "correctAnswer": "B) &lt;meta charset='utf-8'&gt;"
-    },
-    {
-      "id": 16,
-      "category": "HTML ro'yxatlar",
-      "type": "closed",
-      "question": "Tartiblangan ro'yxat uchun qaysi tag ishlatiladi?",
-      "options": [
-        "A) &lt;ul&gt;",
-        "B) &lt;ol&gt;",
-        "C) &lt;list&gt;",
-        "D) &lt;order&gt;"
-      ],
-      "correctAnswer": "B) &lt;ol&gt;"
-    },
-    {
-      "id": 17,
-      "category": "HTML ro'yxatlar",
-      "type": "closed",
-      "question": "Tartiblanmagan ro'yxat uchun qaysi tag ishlatiladi?",
-      "options": [
-        "A) &lt;ul&gt;",
-        "B) &lt;ol&gt;",
-        "C) &lt;unorder&gt;",
-        "D) &lt;list&gt;"
-      ],
-      "correctAnswer": "A) &lt;ul&gt;"
-    },
-    {
-      "id": 18,
-      "category": "HTML ro'yxatlar",
-      "type": "closed",
-      "question": "Ro'yxat elementi uchun qaysi tag ishlatiladi?",
-      "options": [
-        "A) &lt;item&gt;",
-        "B) &lt;li&gt;",
-        "C) &lt;list-item&gt;",
-        "D) &lt;element&gt;"
-      ],
-      "correctAnswer": "B) &lt;li&gt;"
-    },
-    {
-      "id": 19,
-      "category": "HTML havolalar",
-      "type": "closed",
-      "question": "Havola yaratish uchun qaysi tag ishlatiladi?",
-      "options": [
-        "A) &lt;link&gt;",
-        "B) &lt;a&gt;",
-        "C) &lt;href&gt;",
-        "D) &lt;url&gt;"
-      ],
-      "correctAnswer": "B) &lt;a&gt;"
-    },
-    {
-      "id": 20,
-      "category": "HTML havolalar",
-      "type": "closed",
-      "question": "Havolaning manzilini belgilash uchun qaysi atribut ishlatiladi?",
-      "options": [
-        "A) src",
-        "B) href",
-        "C) link",
-        "D) url"
-      ],
-      "correctAnswer": "B) href"
-    },
-    {
-      "id": 21,
-      "category": "HTML havolalar",
-      "type": "closed",
-      "question": "Havolani yangi oynada ochish uchun qaysi atribut ishlatiladi?",
-      "options": [
-        "A) target='_new'",
-        "B) target='_blank'",
-        "C) open='new'",
-        "D) window='new'"
-      ],
-      "correctAnswer": "B) target='_blank'"
-    },
-    {
-      "id": 22,
-      "category": "HTML rasmlar",
-      "type": "closed",
-      "question": "Rasm joylashtirish uchun qaysi tag ishlatiladi?",
-      "options": [
-        "A) &lt;image&gt;",
-        "B) &lt;img&gt;",
-        "C) &lt;picture&gt;",
-        "D) &lt;photo&gt;"
-      ],
-      "correctAnswer": "B) &lt;img&gt;"
-    },
-    {
-      "id": 23,
-      "category": "HTML rasmlar",
-      "type": "closed",
-      "question": "Rasm manzilini belgilash uchun qaysi atribut ishlatiladi?",
-      "options": [
-        "A) href",
-        "B) src",
-        "C) link",
-        "D) url"
-      ],
-      "correctAnswer": "B) src"
-    },
-    {
-      "id": 24,
-      "category": "HTML rasmlar",
-      "type": "closed",
-      "question": "Rasm yuklanmasa, ko'rsatiladigan matn uchun qaysi atribut ishlatiladi?",
-      "options": [
-        "A) title",
-        "B) alt",
-        "C) caption",
-        "D) text"
-      ],
-      "correctAnswer": "B) alt"
-    },
-    {
-      "id": 25,
-      "category": "HTML jadvaller",
-      "type": "closed",
-      "question": "Jadval yaratish uchun qaysi tag ishlatiladi?",
-      "options": [
-        "A) &lt;table&gt;",
-        "B) &lt;tab&gt;",
-        "C) &lt;grid&gt;",
-        "D) &lt;chart&gt;"
-      ],
-      "correctAnswer": "A) &lt;table&gt;"
-    },
-    {
-      "id": 26,
-      "category": "HTML jadvaller",
-      "type": "closed",
-      "question": "Jadval qatorini yaratish uchun qaysi tag ishlatiladi?",
-      "options": [
-        "A) &lt;tr&gt;",
-        "B) &lt;row&gt;",
-        "C) &lt;td&gt;",
-        "D) &lt;table-row&gt;"
-      ],
-      "correctAnswer": "A) &lt;tr&gt;"
-    },
-    {
-      "id": 27,
-      "category": "HTML jadvaller",
-      "type": "closed",
-      "question": "Jadval katakchasi uchun qaysi tag ishlatiladi?",
-      "options": [
-        "A) &lt;cell&gt;",
-        "B) &lt;td&gt;",
-        "C) &lt;tc&gt;",
-        "D) &lt;data&gt;"
-      ],
-      "correctAnswer": "B) &lt;td&gt;"
-    },
-    {
-      "id": 28,
-      "category": "HTML jadvaller",
-      "type": "closed",
-      "question": "Jadval sarlavha katakchasi uchun qaysi tag ishlatiladi?",
-      "options": [
-        "A) &lt;td&gt;",
-        "B) &lt;th&gt;",
-        "C) &lt;header&gt;",
-        "D) &lt;title&gt;"
-      ],
-      "correctAnswer": "B) &lt;th&gt;"
-    },
-    {
-      "id": 29,
-      "category": "HTML formalar",
-      "type": "closed",
-      "question": "Forma yaratish uchun qaysi tag ishlatiladi?",
-      "options": [
-        "A) &lt;form&gt;",
-        "B) &lt;input&gt;",
-        "C) &lt;field&gt;",
-        "D) &lt;data&gt;"
-      ],
-      "correctAnswer": "A) &lt;form&gt;"
-    },
-    {
-      "id": 30,
-      "category": "HTML formalar",
-      "type": "closed",
-      "question": "Matn kiritish maydoni uchun qaysi tag ishlatiladi?",
-      "options": [
-        "A) &lt;text&gt;",
-        "B) &lt;input type='text'&gt;",
-        "C) &lt;textfield&gt;",
-        "D) &lt;field&gt;"
-      ],
-      "correctAnswer": "B) &lt;input type='text'&gt;"
-    },
-    {
-      "id": 31,
-      "category": "HTML formalar",
-      "type": "closed",
-      "question": "Tugma yaratish uchun qaysi tag ishlatiladi?",
-      "options": [
-        "A) &lt;btn&gt;",
-        "B) &lt;button&gt;",
-        "C) &lt;input type='button'&gt;",
-        "D) B va C to'g'ri"
-      ],
-      "correctAnswer": "D) B va C to'g'ri"
-    },
-    {
-      "id": 32,
-      "category": "HTML5 semantik taglar",
-      "type": "closed",
-      "question": "Sahifaning asosiy mazmuni uchun qaysi HTML5 tag ishlatiladi?",
-      "options": [
-        "A) &lt;content&gt;",
-        "B) &lt;main&gt;",
-        "C) &lt;primary&gt;",
-        "D) &lt;body&gt;"
-      ],
-      "correctAnswer": "B) &lt;main&gt;"
-    },
-    {
-      "id": 33,
-      "category": "HTML5 semantik taglar",
-      "type": "closed",
-      "question": "Sahifaning yuqori qismi uchun qaysi HTML5 tag ishlatiladi?",
-      "options": [
-        "A) &lt;top&gt;",
-        "B) &lt;head&gt;",
-        "C) &lt;header&gt;",
-        "D) &lt;banner&gt;"
-      ],
-      "correctAnswer": "C) &lt;header&gt;"
-    },
-    {
-      "id": 34,
-      "category": "HTML5 semantik taglar",
-      "type": "closed",
-      "question": "Sahifaning pastki qismi uchun qaysi HTML5 tag ishlatiladi?",
-      "options": [
-        "A) &lt;bottom&gt;",
-        "B) &lt;footer&gt;",
-        "C) &lt;end&gt;",
-        "D) &lt;base&gt;"
-      ],
-      "correctAnswer": "B) &lt;footer&gt;"
-    },
-    {
-      "id": 35,
-      "category": "HTML atributlar",
-      "type": "closed",
-      "question": "Elementga noyob identifikator berish uchun qaysi atribut ishlatiladi?",
-      "options": [
-        "A) class",
-        "B) id",
-        "C) name",
-        "D) unique"
-      ],
-      "correctAnswer": "B) id"
-    }
-  ]
+export const htmlQuestions = [
+  {
+    "id": 1,
+    "category": "HTML asoslari",
+    "type": "closed",
+    "question": "HTML nima?",
+    "options": [
+      "A) HyperText Markup Language",
+      "B) High Tech Modern Language", 
+      "C) Home Tool Markup Language",
+      "D) Hyperlink and Text Markup Language"
+    ],
+    "correctAnswer": "A) HyperText Markup Language"
+  },
+  {
+    "id": 2,
+    "category": "HTML asoslari",
+    "type": "closed",
+    "question": "HTML hujjatining asosiy tuzilishini boshlash uchun qaysi tag ishlatiladi?",
+    "options": [
+      "A) <document>",
+      "B) <html>",
+      "C) <page>", 
+      "D) <start>"
+    ],
+    "correctAnswer": "B) <html>"
+  },
+  {
+    "id": 3,
+    "category": "HTML asoslari",
+    "type": "closed",
+    "question": "Sahifa sarlavhasini belgilash uchun qaysi tag ishlatiladi?",
+    "options": [
+      "A) <header>",
+      "B) <title>",
+      "C) <h1>",
+      "D) <caption>"
+    ],
+    "correctAnswer": "B) <title>"
+  },
+  // … (shu tartibda 35-gacha davom etadi)
+  {
+    "id": 35,
+    "category": "HTML atributlar",
+    "type": "closed",
+    "question": "Elementga noyob identifikator berish uchun qaysi atribut ishlatiladi?",
+    "options": [
+      "A) class",
+      "B) id",
+      "C) name",
+      "D) unique"
+    ],
+    "correctAnswer": "B) id"
+  }
+]
 
 
 

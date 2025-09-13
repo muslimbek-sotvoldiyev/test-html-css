@@ -70,7 +70,7 @@ export default function HomePage() {
               <BookOpen className="w-16 h-16 mx-auto text-red-500 mb-4" />
               <h2 className="text-2xl font-bold text-red-500 mb-2">Test Tugallangan</h2>
               <p className="text-gray-300">
-                Siz allaqachon Python testini topshirgansiz. Har bir foydalanuvchi faqat bir marta test topshirishi
+                Siz allaqachon HTML testini topshirgansiz. Har bir foydalanuvchi faqat bir marta test topshirishi
                 mumkin.
               </p>
             </div>
@@ -91,8 +91,8 @@ export default function HomePage() {
       <div className="w-full max-w-4xl">
         <div className="text-center mb-8">
           <BookOpen className="w-20 h-20 mx-auto text-white mb-4" />
-          <h1 className="text-4xl font-bold mb-2">Python Bilim Testi</h1>
-          <p className="text-gray-300 text-lg">Python dasturlash tilidan bilimingizni sinab ko'ring</p>
+          <h1 className="text-4xl font-bold mb-2">HTML Bilim Testi</h1>
+          <p className="text-gray-300 text-lg">HTML dasturlash tilidan bilimingizni sinab ko'ring</p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-8 items-center">

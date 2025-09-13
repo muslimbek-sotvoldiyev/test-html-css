@@ -113,7 +113,7 @@ export default function ResultsPage() {
 
   const downloadResults = () => {
     const resultsText = `
-Python Test Natijalari
+HTML Test Natijalari
 ======================
 Foydalanuvchi: ${userName}
 Umumiy ball: ${score}/${pythonQuestions.length} (${percentage}%)
@@ -143,7 +143,7 @@ ${results
     const url = URL.createObjectURL(blob)
     const a = document.createElement("a")
     a.href = url
-    a.download = `python-test-${userName.replace(/\s+/g, "-")}.txt`
+    a.download = `HTML-test-${userName.replace(/\s+/g, "-")}.txt`
     a.click()
     URL.revokeObjectURL(url)
   }
